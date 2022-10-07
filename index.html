@@ -8,25 +8,31 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <!-- Brand -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <a class="navbar-brand" href="#">LOREM IPSUM</a>
-      
-        <!-- Links -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Dolor</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item ms-5">
+            <a class="nav-link active" aria-current="page" href="#">Dolor</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ms-5">
             <a class="nav-link" href="#">Sit</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Amet</a>
+          <li class="nav-item ms-5">
+            <a class="nav-link">amet</a>
           </li>
-            <label for="gsearch">Search:</label>
-            <input type="search" id="gsearch" placeholder="Search" name="gsearch">      
         </ul>
-      </nav>
+        <form class="d-flex" role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+ 
       <nav class="d-flex navbar bg-light col-lg-3">
         <div class="container-fluid">
           <ul class="navbar-nav">
